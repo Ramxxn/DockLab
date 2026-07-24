@@ -14,7 +14,7 @@ const CodeEditor = ({ user, setMembers }) => {
         const ydoc = new Y.Doc();
 
         const provider = new SocketIOProvider(
-            "http://localhost:3000",
+            "/",
             "roomId",
             ydoc,
             {
